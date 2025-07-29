@@ -99,7 +99,7 @@ export default function Contact() {
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Ready to start your fitness journey? Contact Peter today for a free consultation 
-            and let's discuss how we can help you achieve your goals.
+            and let&apos;s discuss how we can help you achieve your goals.
           </p>
         </div>
       </section>
@@ -286,7 +286,7 @@ export default function Contact() {
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="font-bold text-secondary mb-2">Do you offer free consultations?</h3>
               <p className="text-gray-600">
-                Yes! I offer a complimentary 30-minute consultation where we'll discuss your goals, 
+                Yes! I offer a complimentary 30-minute consultation where we&apos;ll discuss your goals, 
                 assess your current fitness level, and create a plan that works for you.
               </p>
             </div>

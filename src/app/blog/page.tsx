@@ -38,7 +38,7 @@ export default function Blog() {
     {
       id: 4,
       title: "Building Mental Resilience Through Fitness",
-      excerpt: "Discover how physical training can strengthen your mental fortitude and help you overcome life's challenges.",
+      excerpt: "Discover how physical training can strengthen your mental fortitude and help you overcome life&apos;s challenges.",
       author: "Peter Hancock",
       date: "December 28, 2024",
       readTime: "4 min read",
@@ -98,7 +98,7 @@ export default function Blog() {
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Expert insights, training tips, and motivation to help you on your fitness journey. 
-            Learn from Peter's experience and discover what it takes to achieve lasting results.
+            Learn from Peter&apos;s experience and discover what it takes to achieve lasting results.
           </p>
         </div>
       </section>

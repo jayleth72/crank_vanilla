@@ -146,7 +146,7 @@ export default function Services() {
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Choose from our range of professional fitness services designed to help you achieve your goals, 
-            whether you're just starting out or looking to take your fitness to the next level.
+            whether you&apos;re just starting out or looking to take your fitness to the next level.
           </p>
           <Link
             href="/contact"
@@ -338,7 +338,7 @@ export default function Services() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Book your free consultation today and let's discuss which service or package is right for you.
+            Book your free consultation today and let&apos;s discuss which service or package is right for you.
           </p>
           <Link
             href="/contact"

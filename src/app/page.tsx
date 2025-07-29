@@ -17,7 +17,7 @@ export default function Home() {
     {
       icon: Trophy,
       title: "Goal Achievement",
-      description: "Whether it's weight loss, muscle gain, or athletic performance, I'll help you reach your goals."
+      description: "Whether it&apos;s weight loss, muscle gain, or athletic performance, I&apos;ll help you reach your goals."
     },
     {
       icon: Users,
@@ -38,7 +38,7 @@ export default function Home() {
   const testimonials = [
     {
       name: "Sarah M.",
-      text: "Peter transformed my fitness journey completely. I've never felt stronger or more confident!",
+      text: "Peter transformed my fitness journey completely. I&apos;ve never felt stronger or more confident!",
       rating: 5
     },
     {

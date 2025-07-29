@@ -23,7 +23,7 @@ export default function About() {
     },
     {
       title: "Sustainable Results",
-      description: "Quick fixes don't last. I focus on building healthy habits and sustainable practices that will serve you for life, not just for a few weeks."
+      description: "Quick fixes don&apos;t last. I focus on building healthy habits and sustainable practices that will serve you for life, not just for a few weeks."
     },
     {
       title: "Holistic Wellness",
@@ -31,7 +31,7 @@ export default function About() {
     },
     {
       title: "Continuous Support",
-      description: "Your journey doesn't end after our session. I provide ongoing motivation, accountability, and adjustments to keep you progressing towards your goals."
+      description: "Your journey doesn&apos;t end after our session. I provide ongoing motivation, accountability, and adjustments to keep you progressing towards your goals."
     }
   ];
 
@@ -49,9 +49,9 @@ export default function About() {
                 Your Personal Fitness Transformation Partner
               </h2>
               <p className="text-lg text-gray-300 mb-8">
-                Based in Seaford Heights, South Australia, I'm passionate about helping people 
+                Based in Seaford Heights, South Australia, I&apos;m passionate about helping people 
                 discover their strength, build confidence, and achieve lasting fitness results. 
-                With over 5 years of experience in personal training, I've helped hundreds of 
+                With over 5 years of experience in personal training, I&apos;ve helped hundreds of 
                 clients transform their lives through fitness.
               </p>
               <Link
@@ -120,7 +120,7 @@ export default function About() {
               My passion for fitness began during my own transformation journey. Like many of my clients, 
               I struggled with consistency, motivation, and knowing the right approach to achieve my goals. 
               Through trial, error, and dedication, I discovered that fitness is not just about physical 
-              exercise—it's about building mental resilience, creating healthy habits, and developing a 
+              exercise—it&apos;s about building mental resilience, creating healthy habits, and developing a 
               sustainable lifestyle.
             </p>
             
@@ -131,8 +131,8 @@ export default function About() {
             </p>
             
             <p className="text-lg text-gray-700 mb-8">
-              What sets me apart is my understanding that every person's journey is unique. Whether you're 
-              a complete beginner or an experienced athlete looking to break through plateaus, I'm here to 
+              What sets me apart is my understanding that every person&apos;s journey is unique. Whether you&apos;re 
+              a complete beginner or an experienced athlete looking to break through plateaus, I&apos;m here to 
               provide the guidance, support, and accountability you need to succeed.
             </p>
           </div>
@@ -193,7 +193,7 @@ export default function About() {
             Ready to Start Your Transformation?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Let's work together to create a personalized fitness plan that fits your lifestyle and helps you achieve your goals.
+            Let&apos;s work together to create a personalized fitness plan that fits your lifestyle and helps you achieve your goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
