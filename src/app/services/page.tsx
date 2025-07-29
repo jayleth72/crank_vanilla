@@ -1,4 +1,4 @@
-import { Dumbbell, Users, Target, Heart, Clock, CheckCircle, Star, ArrowRight } from 'lucide-react';
+import { Dumbbell, Users, Target, Heart, Clock, CheckCircle, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Services() {

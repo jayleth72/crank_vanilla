@@ -1,4 +1,4 @@
-import { Calendar, User, Clock, ArrowRight, Tag } from 'lucide-react';
+import { Calendar, User, Clock, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Blog() {
