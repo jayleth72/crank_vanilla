@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 const Navigation = () => {
@@ -18,12 +19,18 @@ const Navigation = () => {
   return (
     <nav className="bg-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-24">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-primary rounded-full mr-2"></div>
-                <span className="font-heading text-xl font-bold text-secondary">
+                <Image
+                  src="/crank_logo.png"
+                  alt="Crank with Hank Logo"
+                  width={100}
+                  height={100}
+                  className="mr-4"
+                />
+                <span className="font-heading text-2xl font-black text-secondary uppercase tracking-wider">
                   Crank with Hank
                 </span>
               </div>

@@ -58,27 +58,27 @@ export default function Home() {
       <Hero />
       
       {/* Services Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-4">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
               Transform Your Fitness with Expert Training
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
               Discover the difference professional personal training can make in your fitness journey
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center group">
+              <div key={index} className="bg-gray-900 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center group">
                 <div className="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mx-auto mb-6 group-hover:bg-primary group-hover:bg-opacity-100 transition-colors duration-300">
                   <service.icon className="text-primary group-hover:text-white transition-colors duration-300" size={32} />
                 </div>
-                <h3 className="font-heading text-xl font-bold text-secondary mb-4">
+                <h3 className="font-heading text-xl font-bold text-white mb-4">
                   {service.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-300">
                   {service.description}
                 </p>
               </div>
@@ -92,10 +92,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-6">
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-6">
                 Meet Peter Hancock
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-lg text-gray-300 mb-6">
                 With over 5 years of experience in personal fitness training, Peter brings passion, 
                 expertise, and dedication to every session. Based in Seaford Heights, South Australia, 
                 he specializes in helping clients achieve their fitness goals through personalized training programs.
@@ -104,7 +104,7 @@ export default function Home() {
                 {benefits.slice(0, 3).map((benefit, index) => (
                   <li key={index} className="flex items-center">
                     <CheckCircle className="text-primary mr-3 flex-shrink-0" size={20} />
-                    <span className="text-gray-700">{benefit}</span>
+                    <span className="text-gray-300">{benefit}</span>
                   </li>
                 ))}
               </ul>
@@ -133,29 +133,29 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-4">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
               What Our Clients Say
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-gray-300">
               Real transformations from real people
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
+              <div key={index} className="bg-gray-900 p-8 rounded-lg shadow-lg">
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star key={i} className="text-accent fill-current" size={20} />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6 italic">
+                <p className="text-gray-300 mb-6 italic">
                   &ldquo;{testimonial.text}&rdquo;
                 </p>
-                <div className="font-bold text-secondary">
+                <div className="font-bold text-white">
                   {testimonial.name}
                 </div>
               </div>
